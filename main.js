@@ -26,7 +26,7 @@ function myKeyPress(e){
   }
 
   document.getElementById("typeWriter").innerHTML = text.slice(0, currentWordStart) +
-    "<span style='color: lime'>" + text.slice(currentWordStart, j+1) + "</span>" + text.slice(j+2);
+    "<span style='color: lime'>" + text.slice(currentWordStart, j+1) + "</span>" + text.slice(j+1);
 
   if (j == 0) {
     startTime = Date.now();
